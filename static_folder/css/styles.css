@@ -11093,8 +11093,9 @@ html {
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
     display: block;
     position: relative;
+    text-decoration: none;
+    cursor: unset;
 }
-.main-timeline .timeline-content:hover{ text-decoration: none; }
 .main-timeline .timeline-content:before{
     content: '';
     background-color: #00A7FB;
