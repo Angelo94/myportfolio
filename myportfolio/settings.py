@@ -10,11 +10,14 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import json
-import os
 from pathlib import Path
+import os
+import dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 from django.core.exceptions import ImproperlyConfigured
+
+dotenv.read_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -22,24 +25,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
-try:
-    with open('secrets/secrets.json') as f:
-        secrets = json.loads(f.read())
-except:
-    print("Missing json secrets")
-    secrets = {}
-
-
-def get_secrets(setting_key, secrets=secrets):
-    try:
-        return secrets[setting_key]
-    except KeyError:
-        error = 'Setting key {} not found'.format(setting_key)
-        raise ImproperlyConfigured(error)
-
-
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = get_secrets('SECRET_KEY')
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
