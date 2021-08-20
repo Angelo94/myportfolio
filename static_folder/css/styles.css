@@ -11250,7 +11250,8 @@ html {
     display: flex;
     padding: 20px 65px;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
     font-size: 35px;
     color: white;
     background: #002fa7;
