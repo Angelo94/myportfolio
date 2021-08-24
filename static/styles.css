@@ -11250,13 +11250,15 @@ html {
     display: flex;
     padding: 20px 65px;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
     font-size: 35px;
     color: white;
-    background: #002fa7;
+    /*background: #002fa7;*/
     transition: 1s;
-    box-shadow: 6px 6px 0 black;
-    transform: skewX(-15deg);
+    /*box-shadow: 6px 6px 0 black;*/
+    /*transform: skewX(-15deg);*/
+    width: 90%;
 }
 
 .cta:focus {
@@ -11265,7 +11267,7 @@ html {
 
 .cta:hover {
     transition: 0.5s;
-    box-shadow: 10px 10px 0 #FBC638;
+    /*box-shadow: 10px 10px 0 #FBC638;*/
 }
 
 .cta span:nth-child(2) {
@@ -11329,14 +11331,17 @@ path.two {
     }
 }
 
-.portfolio contact{
+
+
+.portfolio {
+
   background:
     linear-gradient(180deg, rgba(248, 184, 139,0) 20%, rgba(248, 184, 139,.1) 20%, rgba(248, 184, 139,.1) 40%, rgba(248, 184, 139,.2) 40%, rgba(248, 184, 139,.2) 60%, rgba(248, 184, 139,.4) 60%, rgba(248, 184, 139,.4) 80%, rgba(248, 184, 139,.5) 80%),
-    linear-gradient(45deg, rgba(250, 248, 132,.3) 20%, rgba(250, 248, 132,.4) 20%, rgba(250, 248, 132,.4) 40%, rgba(250, 248, 132,.5) 40%, rgba(250, 248, 132,.5) 60%, rgba(250, 248, 132,.6) 60%, rgba(250, 248, 132,.6) 80%, rgba(250, 248, 132,.7) 80%),
+    linear-gradient(45deg, rgba(112,182,229,.3) 20%, rgba(112,182,229,.4) 20%, rgba(112,182,229,.4) 40%, rgba(112,182,229,.5) 40%, rgba(112,182,229,.5) 60%, rgba(112,182,229,.6) 60%, rgba(112,182,229,.6) 80%, rgba(112,182,229,.7) 80%),
     linear-gradient(-45deg, rgba(186, 237, 145,0) 20%, rgba(186, 237, 145,.1) 20%, rgba(186, 237, 145,.1) 40%, rgba(186, 237, 145,.2) 40%, rgba(186, 237, 145,.2) 60%, rgba(186, 237, 145,.4) 60%, rgba(186, 237, 145,.4) 80%, rgba(186, 237, 145,.6) 80%),
     linear-gradient(90deg, rgba(178, 206, 254,0) 20%, rgba(178, 206, 254,.3) 20%, rgba(178, 206, 254,.3) 40%, rgba(178, 206, 254,.5) 40%, rgba(178, 206, 254,.5) 60%, rgba(178, 206, 254,.7) 60%, rgba(178, 206, 254,.7) 80%, rgba(178, 206, 254,.8) 80%),
     linear-gradient(-90deg, rgba(242, 162, 232,0) 20%, rgba(242, 162, 232,.4) 20%, rgba(242, 162, 232,.4) 40%, rgba(242, 162, 232,.5) 40%, rgba(242, 162, 232,.5) 60%, rgba(242, 162, 232,.6) 60%, rgba(242, 162, 232,.6) 80%, rgba(242, 162, 232,.8) 80%),
-    linear-gradient(180deg, rgba(254, 163, 170,0) 20%, rgba(254, 163, 170,.4) 20%, rgba(254, 163, 170,.4) 40%, rgba(254, 163, 170,.6) 40%, rgba(254, 163, 170,.6) 60%, rgba(254, 163, 170,.8) 60%, rgba(254, 163, 170,.8) 80%, rgba(254, 163, 170,.9) 80%)
+    linear-gradient(180deg, rgb(0,47,167) 20%, rgba(0,47,167,.4) 20%, rgba(0,47,167,.4) 40%, rgba(0,47,167,.6) 40%, rgba(0,47,167,.6) 60%, rgba(0,47,167,.8) 60%, rgba(0,47,167,.8) 80%, rgba(0,47,167,.9) 80%)
 ;
   background-color: rgb(254, 163, 170);
   background-size: 100% 100%;
